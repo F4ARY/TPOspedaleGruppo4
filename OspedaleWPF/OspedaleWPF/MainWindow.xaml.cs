@@ -21,5 +21,9 @@ namespace OspedaleWPF {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+
+        }
     }
 }
