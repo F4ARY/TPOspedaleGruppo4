@@ -1,0 +1,25 @@
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4.csprojAssemblyReference.cache
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\MainWindow.g.cs
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\App.g.cs
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4_MarkupCompile.cache
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4_MarkupCompile.lref
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\Ospedale Gruppo 4.exe.config
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\Ospedale Gruppo 4.exe
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\Ospedale Gruppo 4.pdb
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\Dragablz.dll
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\MaterialDesignColors.dll
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\Dragablz.pdb
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\Dragablz.xml
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\App.baml
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\MainWindow.baml
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4.g.resources
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale_Gruppo_4.Properties.Resources.resources
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4.csproj.GenerateResource.cache
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4.csproj.CoreCompileInputs.cache
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4.csproj.CopyComplete
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4.exe
+C:\Users\Yanhui Matteo\Desktop\Ospedale Gruppo 4\Ospedale Gruppo 4\obj\Debug\Ospedale Gruppo 4.pdb

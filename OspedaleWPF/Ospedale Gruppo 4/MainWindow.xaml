@@ -1,0 +1,156 @@
+﻿<Window x:Class="Ospedale_Gruppo_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ospedale_Gruppo_4"
+        mc:Ignorable="d"
+        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Gruppo 4" Height="700" Width="600" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow" ResizeMode="CanMinimize" Visibility="Visible">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="#2196f3" Grid.ColumnSpan="2">
+            <TextBlock Text="Roba gruppo 4" FontSize="34" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontStyle="Italic" />
+            <Image HorizontalAlignment="Left" Height="90" Width="90" Source="logo.png"/>
+        </Grid>
+
+        <dragablz:TabablzControl Grid.Row="1" Grid.ColumnSpan="2">
+            <TabItem Header="Dottori">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <ComboBox Width="150" Height="27" materialDesign:HintAssist.Hint="Padiglioni" >
+                        <ComboBoxItem Content="Padiglione A"/>
+                        <ComboBoxItem Content="Padiglione B"/>
+                        <ComboBoxItem Content="Padiglione C"/>
+                        <ComboBoxItem Content="Padiglione D"/>
+                        <ComboBoxItem Content="Padiglione E"/>
+                        <ComboBoxItem Content="Padiglione F"/>
+                        <ComboBoxItem Content="Padiglione G"/>
+                        <ComboBoxItem Content="Padiglione H"/>
+                        <ComboBoxItem Content="Centro Anatomia Patologica"/>
+                        <ComboBoxItem Content="Presidio di Galliate"/>
+                        <ComboBoxItem Content="Sede distaccata"/>
+                        <ComboBoxItem Content="Sede Universitaria"/>
+                    </ComboBox>
+                    <Button x:Name="btnDottori"  Content="_Cerca" Width="125" Height="50" Grid.Row="1"/>
+                    <ListBox Grid.RowSpan="2" Grid.Column="1">
+
+                    </ListBox>
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Pazienti">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <ComboBox Width="150" Height="27" materialDesign:HintAssist.Hint="Reparti">
+                        <ComboBoxItem Content="Anatomia patologica"/>
+                        <ComboBoxItem Content="Ortopedia e traumatologia"/>
+                        <ComboBoxItem Content="Cardiologia 1"/>
+                        <ComboBoxItem Content="Fisica sanitaria"/>
+                        <ComboBoxItem Content="Medicina e chirurgia d'accettazione e d'urgenza"/>
+                        <ComboBoxItem Content="Medicina interna 1"/>
+                        <ComboBoxItem Content="Medicina interna 2"/>
+                        <ComboBoxItem Content="Neurologia"/>
+                        <ComboBoxItem Content="Oftamologia"/>
+                        <ComboBoxItem Content="Terapia intensiva cardiologica unità coronarica"/>
+                        <ComboBoxItem Content="Anestesia e rianimazione 1"/>
+                        <ComboBoxItem Content="Anestesia e rianimazione 2"/>
+                        <ComboBoxItem Content="Ciochimica clinica"/>
+                        <ComboBoxItem Content="Cardiochirurgia"/>
+                        <ComboBoxItem Content="Cardiologia 2"/>
+                        <ComboBoxItem Content="Chirurgia maxillo-facciale"/>
+                        <ComboBoxItem Content="Chirurgia toracica"/>
+                        <ComboBoxItem Content="Neurochirurgia 'Enrico Geuna'"/>
+                        <ComboBoxItem Content="Otorinolaringoiatria"/>
+                        <ComboBoxItem Content="Urologia"/>
+                        <ComboBoxItem Content="Chirurgia generale 1"/>
+                        <ComboBoxItem Content="Chirurgia generale 2"/>
+                        <ComboBoxItem Content="Chirurgia plastica e ricostruttiva"/>
+                        <ComboBoxItem Content="Chirurgia vascolare"/>
+                        <ComboBoxItem Content="Ematologia"/>
+                        <ComboBoxItem Content="Malattie dell'apparato respiratorio"/>
+                        <ComboBoxItem Content="Medicina nucleare"/>
+                        <ComboBoxItem Content="Radiodiagnostica"/>
+                        <ComboBoxItem Content="Radioterapia oncologica"/>
+                        <ComboBoxItem Content="Unità di senologia"/>
+                        <ComboBoxItem Content="Anatomia patologica"/>
+                        <ComboBoxItem Content="Ortopedia e traumatologia"/>
+                        <ComboBoxItem Content="Chirurgia pediatrica"/>
+                        <ComboBoxItem Content="Microbiologia e virologia"/>
+                        <ComboBoxItem Content="Nefrologia centro trapianti rene"/>
+                        <ComboBoxItem Content="Neuropsichiatria infantile"/>
+                        <ComboBoxItem Content="Oncologia"/>
+                        <ComboBoxItem Content="Ortopedia e traumatologia pediatrica"/>
+                        <ComboBoxItem Content="Ostetricia e ginecologia"/>
+                        <ComboBoxItem Content="Pediatria"/>
+                        <ComboBoxItem Content="Scienza dell'alimentazione e dietetica"/>
+                        <ComboBoxItem Content="Terapia intensiva neonatale"/>
+                        <ComboBoxItem Content="Nefrologia dialisi"/>
+                        <ComboBoxItem Content="Malattie infettive"/>
+                        <ComboBoxItem Content="Dermatologia e venereologia"/>
+                        <ComboBoxItem Content="Endocrinologia"/>
+                        <ComboBoxItem Content="Gastroenterologia"/>
+                        <ComboBoxItem Content="Psichiatria"/>
+                        <ComboBoxItem Content="Direzione sanitaria dei presidi ospedialieri"/>
+                        <ComboBoxItem Content="Medicina trasfusionale"/>
+                        <ComboBoxItem Content="Cardiologia Galliate"/>
+                        <ComboBoxItem Content="Chirurgia generale Galliate"/>
+                        <ComboBoxItem Content="Dermatologia e venerologia"/>
+                        <ComboBoxItem Content="Hospice - Cure palliattive"/>
+                        <ComboBoxItem Content="Medicina interna Galliate"/>
+                        <ComboBoxItem Content="Medicina fisica e riabilitazione Galliate"/>
+                        <ComboBoxItem Content="Radiodiagnostica Galliate"/>
+                        <ComboBoxItem Content="Cure palliattive - Hospice"/>
+                        <ComboBoxItem Content="Centro prelievi"/>
+                        <ComboBoxItem Content="Emergenza sanitaria 118"/>
+                        <ComboBoxItem Content="Medicina del lavoro"/>
+                        <ComboBoxItem Content="Medicia fisica e riabilitazione"/>
+                        <ComboBoxItem Content="Neuropsichiatria infantile"/>
+                        <ComboBoxItem Content="Odontoiatria"/>
+                        <ComboBoxItem Content="Psicologia clinica"/>
+                        <ComboBoxItem Content="Terapia del dolore"/>
+                        <ComboBoxItem Content="Unità spinale"/>
+                        <ComboBoxItem Content="Epidemiologia dei tumori"/>
+                    </ComboBox>
+                    <Button x:Name="btnPazienti" Content="_Cerca" Width="125" Height="50" Grid.Row="1"/>
+                    <ListBox Grid.RowSpan="2" Grid.Column="1">
+
+                    </ListBox>
+                </Grid>
+            </TabItem>
+        </dragablz:TabablzControl>
+        <GroupBox x:Name="gbCaricamento" Grid.ColumnSpan="2" Grid.Row="1" ClipToBounds="True" Background="White" Visibility="Hidden">
+            <TextBlock Text="Caricamento swag" FontSize="24" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </GroupBox>
+    </Grid>
+</Window>
