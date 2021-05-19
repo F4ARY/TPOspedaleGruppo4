@@ -1,4 +1,5 @@
 # TPOspedaleGruppo4
  Programma WPF con programmazione concorrente
  
- Programmatori George Patrut, Matteo Hu, Gabriele Zotta
+ <h1>PROGETTO NON PIU' FUNZIONANTE O SUPPORTATO</h1>
+ 
